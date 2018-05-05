@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+BOX_NAME=atmosphere
+BOX_FILE=output/packer_arch_virtualbox.box
+
+vagrant box add --name=$BOX_NAME $BOX_FILE

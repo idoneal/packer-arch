@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TEMPLATE=arch-template.json
+COLOR=true
+
+packer build -color=$COLOR $TEMPLATE
